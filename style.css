@@ -109,3 +109,50 @@
 .failorContent {
   width: 420px;
 }
+
+.planTitle h1 {
+  color: #151414;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.plansItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 0px;
+  margin-bottom: 5rem;
+}
+
+.singleItem {
+  text-align: center;
+}
+
+.singleItem h2 {
+  margin: 15px 0px;
+}
+
+.adBanner {
+  background-image: url('./images/watch.png');
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 100px;
+  margin-bottom: 130px;
+}
+
+.adBanner h1 {
+  color: white;
+  width: 450px;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.adBanner a {
+  width: fit-content;
+  margin-top: 1rem;
+}
