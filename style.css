@@ -134,7 +134,8 @@
 }
 
 .adBanner {
-  background-image: url('./images/watch.png');
+  background-image: linear-gradient(to right, #000accd4, #ffffff40),
+    url(./images/watch.png);
   height: 300px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
